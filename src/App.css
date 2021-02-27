@@ -3,20 +3,85 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
+  opacity: 0.1;
+  position:absolute;
+  top: 10px;
 }
 
+.firstHalf{
+    background-color: #1f2535;
+    color: white;
+    padding-bottom: 50px;
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+}
+.title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: start;
+  padding-left: 70px;
+  padding-top: 70px;
+  text-align: start;
+  font-size: 70px;
+  margin: 0;
+}
+.pTitle{
+  display: flex;
+  justify-content: start;
+  padding-left: 70px;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 200;
+  margin:0px;
+}
+
+.bTitle{
+  display: flex;
+  justify-content: start;
+  margin-left: 70px;
+  margin-top: 70px;
+  text-align: start;
+  font-weight:bold;
 }
 
 .App-link {
   color: #09d3ac;
+}
+button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.iconsUl{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.icon{
+  width: 110px;
+}
+h3{
+  margin: 0;
+  padding-left: 12px;
+}
+.listP{
+  margin: 0;
+  padding-left: 12px;
+}
+.iconLi{
+text-align: left;
 }
